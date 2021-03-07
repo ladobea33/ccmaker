@@ -1,0 +1,373 @@
+html, body, div, span, applet, object, iframe,
+h1, h2, h3, h4, h5, h6, p, blockquote, pre,
+a, abbr, acronym, address, big, cite, code,
+del, dfn, em, img, ins, kbd, q, s, samp,
+small, strike, strong, sub, sup, tt, var,
+b, u, i, center,
+dl, dt, dd, ol, ul, li,
+fieldset, form, label, legend,
+table, caption, tbody, tfoot, thead, tr, th, td,
+article, aside, canvas, details, embed, 
+figure, figcaption, footer, header, hgroup, 
+menu, nav, output, ruby, section, summary,
+time, mark, audio, video {
+	margin: 0;
+	padding: 0;
+	border: 0;
+	font-size: 100%;
+	font: inherit;
+	font-family:arial;
+	vertical-align: baseline;
+}
+/* HTML5 display-role reset for older browsers */
+article, aside, details, figcaption, figure, 
+footer, header, hgroup, menu, nav, section {
+	display: block;
+}
+body {
+	line-height: 1;
+}
+ol, ul {
+	list-style: none;
+}
+blockquote, q {
+	quotes: none;
+}
+blockquote:before, blockquote:after,
+q:before, q:after {
+	content: '';
+	content: none;
+}
+table {
+	border-collapse: collapse;
+	border-spacing: 0;
+}
+
+/************** End reset ****************/
+
+#title_image{
+  background-image: url("https://i.pinimg.com/originals/7c/e4/c3/7ce4c3144ad58c1f045e82130a53202b.jpg");
+  min-height: 550px; 
+  background-attachment: fixed;
+  background-position: bottom center;
+  background-repeat: no-repeat;
+  background-size: cover;
+  padding-bottom:30px;
+}
+
+#title_image img{
+	padding-top:150px;
+	padding-bottom:150px;
+	display: block;
+	width:600px;
+	margin:auto;
+}
+
+#brief{
+	max-width:600px;
+	margin:auto;
+	text-align:center;
+	font-size:20px;
+	font-family:arial;
+	line-height:30px;
+	color:#545454;
+	padding:1%;
+    background: rgba(255,255,255,0.6);
+}
+
+#first_row{
+	float:left;
+	width:100%;
+	background-image: url("https://i.pinimg.com/originals/9c/f0/19/9cf019c5fe69ad7eae1ec82520bc2093.png");
+	background-attachment: fixed;
+	background-position: right center;
+	background-repeat: no-repeat;
+	background-size: 50%;
+}
+
+.left_col_text{
+	background:#2F3084;
+	width:46%;
+	padding:0 2%;
+	color:#ffffff;
+	font-size:20px;
+	line-height:50px;
+	font-weight:200;
+	float:left;
+	min-height:400px;
+	background-image: url("https://i.pinimg.com/originals/d2/a6/89/d2a689772d3524fa8bc60779141ee607.png");
+}
+
+.left_col_text h2, .right_col_text h2{
+	padding-top:5%;
+	text-align:center;
+	font-size:30px;
+	line-height:50px;
+	font-weight:200;
+}
+
+#second_row{
+	float:left;
+	width:100%;
+	background-image: url("https://i.pinimg.com/originals/b1/4c/90/b14c90e7340fbda7232fefb4dbf38b85.png");
+	background-attachment: fixed;
+	background-position: center left;
+	background-repeat: no-repeat;
+	background-size: 50%;
+}
+
+.right_col_text{
+	background:#E84138;
+	width:46%;
+	padding:0 2%;
+	color:#ffffff;
+	font-size:20px;
+	line-height:50px;
+	font-weight:200;
+	float:right;
+	min-height:400px;
+	background-image: url("https://i.pinimg.com/originals/94/f8/ff/94f8ff127f5b09ac821fbfb409cea6e8.png");
+}
+
+#third_row{
+	width:98%;
+	float:left;
+	background-image: url("https://i.pinimg.com/originals/ec/aa/ba/ecaaba50edf0345f0149b996678325c2.png");
+	background-attachment: fixed;
+	background-position: center left;
+	background-repeat: no-repeat;
+	background-size:cover;
+	padding:1%;
+}
+
+#fourth_row{
+	width:98%;
+	float:left;
+	background-image: url("embossing.jpg");
+	background-attachment: fixed;
+	background-position: top center;
+	background-repeat: no-repeat;
+	background-size:cover;
+	padding:1%;
+}
+
+#fifth_row {
+	width:98%;
+	float:left;
+	background-image: url("https://i.pinimg.com/originals/5e/21/57/5e215724d5e945751cfa909994670eed.jpg");
+	background-attachment: fixed;
+	background-position: top center;
+	background-repeat: no-repeat;
+	background-size:cover;
+	padding:1%;
+}
+
+#sixth_row {
+	width:98%;
+	float:left;
+	background-image: url("https://i.pinimg.com/originals/d2/a6/89/d2a689772d3524fa8bc60779141ee607.png");
+	background-attachment: fixed;
+	background-position: top center;
+	padding:1%;
+}
+
+#third_row h2, #fourth_row h2, #fifth_row h2, #sixth_row h2, #gallery h2{
+	padding-top:2%;
+	text-align:center;
+	font-size:30px;
+	line-height:50px;
+	font-weight:200;
+	color:#1A53F5;
+	border-bottom:2px solid #dbd8d8;
+	max-width:500px;
+	margin:auto;
+}
+
+#fourth_row h2{
+	color:#FF0000;
+}
+
+#fifth_row h2{
+	color:#3C7349;
+}
+
+#sixth_row h2{
+	color:#A68C5D;
+}
+
+#gallery h2{
+	color:#FF780A;
+	padding-bottom:5%;
+	font-size:50px;
+}
+
+#thank_you{
+	clear:both;
+		color:#545454;
+	padding:5% 0;
+	font-size:20px;
+	text-align:center;
+}
+
+#third_row p, #fourth_row p, #fifth_row p, #sixth_row p{
+	font-size:20px;
+	line-height:40px;
+	text-align:center;
+	color:#000000;
+}
+
+#third_row #holo{
+	display: block;
+	width:200px;
+	margin: 30px auto;
+}
+
+#fourth_row #embossing {
+	display:block;
+	width:400px;
+	margin:auto;
+	margin-top:20px;
+}
+
+#fifth_row #guilloche {
+	display:block;
+	width:400px;
+	margin:auto;
+	margin-top:20px;
+}
+
+
+#third_row #bad_holo{
+	display: block;
+	width:600px;
+	margin:auto;
+	margin-bottom:20px;
+}
+
+#third_row span{
+	color:red;
+}
+
+#fourth_row div, #third_row div, #fifth_row div, #sixth_row div{
+	max-width:800px;
+	padding:4%;
+	margin:auto;
+	 background: rgba(255,255,255,0.7);
+	 border-radius: 50px;
+}
+
+/****************** Gallery *********************/
+#gallery{
+	width:98%;
+	float:left;
+	background-image: url("https://i.pinimg.com/originals/c4/45/fc/c445fc70051c15f085a51f82f79f53b6.png");
+	background-attachment: fixed;
+	background-position: top center;
+	padding:1%;
+}
+
+#gallery_1{
+	background-image: url("https://i.pinimg.com/originals/84/94/2a/84942abd978aac3da7c48e6c365663b1.jpg");
+}
+
+#gallery_2{
+	background-image: url("https://i.pinimg.com/originals/37/eb/f1/37ebf16a19c2ce280e2979b9805a33c4.jpg");
+}
+
+#gallery_3{
+	background-image: url("https://i.pinimg.com/originals/b4/3e/53/b43e533c11be693772461ff0f4e0bdd1.jpg");
+}
+
+#gallery_4{
+	background-image: url("https://i.pinimg.com/originals/f0/bf/6c/f0bf6cd9ca87f1d81dd6b84d3ea0ad9d.jpg");
+}
+
+#gallery_5{
+	background-image: url("https://i.pinimg.com/originals/d6/55/3f/d6553f088bf213c35120ca4d4a399ab6.jpg");
+}
+
+#gallery_7{
+	background-image: url("https://i.pinimg.com/originals/8c/61/c6/8c61c6de8de95ac9f8c0612be7de94a8.jpg");
+}
+#gallery_8{
+	background-image: url("https://i.pinimg.com/originals/72/9e/96/729e961bf5ef2314a611c2623f41400e.jpg");
+}
+
+#gallery_9{
+	background-image: url("https://i.pinimg.com/originals/92/0b/7f/920b7f4237c988bb7bbd3f7a339e6413.jpg");
+}
+
+#gallery_11{
+	background-image: url("https://i.pinimg.com/originals/7d/c7/c4/7dc7c4d82570ca9cc97452a4b3c7d6ef.jpg");
+}
+
+#gallery_12{
+	background-image: url("https://i.pinimg.com/originals/b4/8a/b3/b48ab3041fb6d625531bb01ed3499a04.jpg");
+}
+
+#gallery_13{
+	background-image: url("https://i.pinimg.com/originals/27/3e/23/273e23f34edc90df553085a92a9cecd4.jpg");
+}
+
+#gallery_14{
+	background-image: url("https://i.pinimg.com/originals/6f/03/c9/6f03c917d4505d8ab25766391184396d.jpg");
+}
+
+#gallery_15{
+	background-image: url("https://i.pinimg.com/originals/37/b8/a4/37b8a44ec81282c5d46355e992d397a3.jpg");
+}
+
+#gallery_1, #gallery_2, #gallery_3, #gallery_4, #gallery_5, #gallery_7, #gallery_8, #gallery_9, #gallery_11, #gallery_12, #gallery_13, #gallery_14, #gallery_15{
+	width:80%;
+	margin:auto;
+	float:left;
+	background-attachment: fixed;
+	background-position: center center;
+	background-repeat: no-repeat;
+	background-size:30%;
+	height:900px;
+}
+
+#logo-bottom{
+	width:98%;
+	float:left;
+	background-image: url("https://i.pinimg.com/originals/30/28/fb/3028fbab9009ce8525dcb448d485324d.png");
+	background-attachment: fixed;
+	background-position: bottom center;
+	background-repeat: no-repeat;
+	background-size:80%;
+	padding:1%;
+	height:400px;
+}
+
+#myBtn {
+  display: none;
+  position: fixed;
+  bottom: 20px;
+  right: 30px;
+  z-index: 99;
+  font-size: 18px;
+  border: none;
+  outline: none;
+  background-color: red;
+  color: white;
+  cursor: pointer;
+  padding: 15px;
+  border-radius: 4px;
+}
+
+#myBtn:hover {
+  background-color: #555;
+}
+
+@media only screen and (max-width: 1400px) {
+#gallery_1, #gallery_2, #gallery_3, #gallery_4, #gallery_5, #gallery_7, #gallery_8, #gallery_9, #gallery_11, #gallery_12, #gallery_13, #gallery_14, #gallery_15{
+ background-size:40%;
+}	
+}
+
+@media only screen and (max-width: 800px) {
+#gallery_1, #gallery_2, #gallery_3, #gallery_4, #gallery_5, #gallery_7, #gallery_8, #gallery_9, #gallery_11, #gallery_12, #gallery_13, #gallery_14, #gallery_15{
+ background-size:70%;
+}	
+}
